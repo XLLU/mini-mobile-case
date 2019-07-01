@@ -1,4 +1,9 @@
-<!--index.wxml-->
+<image src="https://raw.githubusercontent.com/XLLU/mini-mobile-case/master/images/discover-1.jpg"
+mode='aspectFill'></image>
+
+<image src="https://raw.githubusercontent.com/XLLU/mini-mobile-case/master/images/velar-1.jpg"
+mode='aspectFill'></image>
+
 <view>
-  index
+  悬浮飘逸的车顶线、连绵不断的腰线及位于车身下部特征造型的三条经典线条，依然是闻名遐迩的路虎揽胜风格，赋予它颇高的辨识度。 路虎揽胜可配备像素式激光LED大灯等一系列创新配置，令它更显气度。
 </view>
