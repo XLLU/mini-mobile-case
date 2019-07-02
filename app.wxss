@@ -1,4 +1,6 @@
 @import 'styles/reset'
+@import 'styles/hero'
+@import 'styles/button'
 
 page {
 	background: #f8f8f8;
