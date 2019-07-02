@@ -1,4 +1,3 @@
-
 <swiper class="section hero" indicator-dots="{{ true }}" >
 	<block wx:for="{{slides}}" wx:key="id">
 		<swiper-item>
@@ -8,7 +7,7 @@
 				<view class="header">{{ item.header }}</view>
 				<view class="description">{{ item.description }}</view>
 				<view class="action">
-					<button class="button"> 预约试戴 </button>
+					<button class="button"> 预约试驾 </button>
 					<button class="button primary"> 了解更多 </button>
 				</view>
 			</view>
@@ -19,6 +18,28 @@
 </swiper>
 
 
+<view class="cards">
+	
+	<view class="card" hover-class="hover" wx:for="{{entities}}" wx:key="id">
+		<image class="" src="{{ item.image }}" mode="aspectFill"></image>
+
+		<view class="content">
+			<view class="header">
+				{{ item.header }}
+				<view class="sub-header">
+					{{ item.sub_header }}
+				</view>
+			</view>
+
+		<view class="description">{{ item.description }}</view>
+
+		<view class="meta">{{ item.meta.price }}</view>
+
+		</view>
+
+	</view>
+
+</view>
 
 
 

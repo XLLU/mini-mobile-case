@@ -1,6 +1,7 @@
 @import 'styles/reset'
 @import 'styles/hero'
 @import 'styles/button'
+@import 'styles/card'
 
 page {
 	background: #f8f8f8;
