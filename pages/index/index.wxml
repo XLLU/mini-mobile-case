@@ -1,4 +1,32 @@
-<image src="https://raw.githubusercontent.com/XLLU/mini-mobile-case/master/images/discover-1.jpg"
+
+<swiper class="section" indicator-dots="{{ true }}">
+	<block wx:for="{{slides}}" wx:key="id">
+		<swiper-item>
+			<image class="" src="{{ item.image }}" mode="aspectFill"></image>
+			<view class="content">
+				<view class="sub-header">{{ item.sub_header }}</view>
+				<view class="header">{{ item.header }}</view>
+				<view class="description">{{ item.description }}</view>
+				<view class="action">
+					<button class="button"> 预约试戴 </button>
+					<button class="button"> 了解更多 </button>
+				</view>
+			</view>
+		</swiper-item>
+
+	</block>
+
+</swiper>
+
+
+view
+
+
+
+
+
+<!-- Images Demo -->
+<!-- <image src="https://raw.githubusercontent.com/XLLU/mini-mobile-case/master/images/discover-1.jpg"
 mode='aspectFill'></image>
 
 <image src="https://raw.githubusercontent.com/XLLU/mini-mobile-case/master/images/velar-1.jpg"
@@ -6,4 +34,4 @@ mode='aspectFill'></image>
 
 <view>
   悬浮飘逸的车顶线、连绵不断的腰线及位于车身下部特征造型的三条经典线条，依然是闻名遐迩的路虎揽胜风格，赋予它颇高的辨识度。 路虎揽胜可配备像素式激光LED大灯等一系列创新配置，令它更显气度。
-</view>
+</view> -->
