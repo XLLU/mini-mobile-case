@@ -13,7 +13,7 @@ App({
 
         const currentPages = getCurrentPages()
         if (currentPages.length !== 0) {
-          currentPages[currentPages.length-1].onload()
+          currentPages[currentPages.length - 1].onLoad()
         }
       }
     })
